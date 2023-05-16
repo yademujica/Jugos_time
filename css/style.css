@@ -22,7 +22,11 @@ display: flex;
 align-items: center;
 }
 
-
+h3{
+font-size: 25px;
+color: white;
+font-weight: 300;
+}
 h4,h6{
     font-weight:1000;
     text-align:center;
