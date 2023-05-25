@@ -214,17 +214,20 @@ h5{
         }
         #JugosDeFrutas img{
             width: 200px;
+            padding:8px ;
         }
         #JugosDeRaiz img{
             width: 200px;
+            padding:8px ;
         }
         #JugosVerdes img{
             width: 200px;
+            padding:8px ;
         }
-    }
+      }
     @media (max-width:576px){
         .form-control{
-            width: 170px;
+            width: 140px;
         }
         .col-6 p{
             display: none;
@@ -236,6 +239,17 @@ h5{
             display: flex;
             justify-content: flex-start;
         }
+        
+        iframe{
+            width: 350px;
+        }
+        h6{
+            font-size: 16px;
+        }
+        h2{
+            font-size: 20px;
+        }
+        
      }
     /*media query mobile*/
      
@@ -286,15 +300,12 @@ h5{
 
 footer{
     background-color:2d6a4f ;
-    display: flex;
-    justify-content: space-evenly;
+    text-align: center;
     }
     
-    .RedesSociales{
-      padding:5px;
-      margin: 5px;
-      display: flex;
-      
+    footer a{
+        padding: 0px 18px;
+        display: inline-block;
     }
       
 
