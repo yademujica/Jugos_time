@@ -2,6 +2,7 @@
 
 @import "./basics/colors.scss" ;
 @import "./basics/typography.scss";
+@import "./basics/mediaqueries.scss" ;
 
 //Layout
 
@@ -17,6 +18,5 @@
 @import "./paginas/tienda.scss" ;
 @import "./paginas/contacto.scss" ;
 
-//base
 
-@import "./base/mediaqueries.scss" ;
+
