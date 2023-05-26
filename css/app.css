@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2? family= Noticia+Text:wght@400;700 & family= Poppins:wght@300;800 & display=swap");
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, header, ul, li, a {
   font-family: "poppins";
 }
 
@@ -243,6 +243,7 @@ footer a {
 .boos .mb-3 {
   margin: 50px;
   padding: 5px;
+  font-family: "poppins";
   color: #ffffff;
 }
 
