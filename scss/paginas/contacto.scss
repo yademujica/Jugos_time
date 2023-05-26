@@ -1,0 +1,41 @@
+.Mapa {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.Contactos {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.boos {
+	.mb-3 {
+		margin: 50px;
+		padding: 5px;
+		font-family: $font-family_1;
+		color: $color_1;
+	}
+}
+.container {
+	background-color: $background-color_1;
+}
+.col-6 {
+	padding: 12px;
+	p {
+		font-size: 18px;
+		padding: 15px;
+		color: $color_1;
+	}
+	a {
+		padding: 15px;
+		display: flex;
+		text-decoration: none;
+	}
+}
+.mb-3enviar {
+	background-color: $background-color_3;
+	color: $color_1;
+	padding: 5px 10px;
+	border-radius: 8px;
+	margin: 10%;
+}

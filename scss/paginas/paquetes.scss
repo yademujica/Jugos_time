@@ -1,0 +1,35 @@
+.Caja1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	article {
+		padding: 100px;
+		margin: 5px;
+		a {
+			color: $color_2;
+			background-color: $background-color_2;
+			border-radius: 10px;
+			font-size: 16px;
+			text-align: center;
+			padding: 12px 12px;
+			margin: 10px;
+			text-decoration: none;
+			display: flex;
+			justify-content: center;
+		}
+	}
+}
+.btn-primary {
+	background-color: $background-color_3;
+	color: $color_1;
+	padding: 10px 25px;
+	border-radius: 8px;
+	margin: auto;
+	cursor: pointer;
+	display: flex;
+	align-content: space-around;
+	&:hover {
+		background-color: $background-color_4;
+	}
+}

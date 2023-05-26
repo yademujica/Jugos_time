@@ -1,0 +1,23 @@
+#JugosDeFrutas {
+	text-align: center;
+	margin: 12px;
+}
+#JugosDeRaiz {
+	text-align: center;
+	margin: 12px;
+}
+#JugosVerdes {
+	text-align: center;
+	margin: 12px;
+}
+
+#OtrosProductos {
+	display: flex;
+	flex-direction: row;
+	margin: 12px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.Producto {
+	margin: 12px;
+}

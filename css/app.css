@@ -1,0 +1,349 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+
+.Sub h1 {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.Subtitulo {
+  background-image: url(../imagenes/plantita.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.Subtitulo img {
+  flex: 1;
+}
+
+header {
+  background-color: #2d6a4f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 80px;
+}
+header ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-direction: row;
+}
+header li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bolder;
+  padding: 0px 12px;
+}
+
+h3 {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 300;
+  text-align: center;
+}
+
+h4 {
+  font-weight: 1000;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+h6 {
+  font-weight: 1000;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+#Algunosdenuestrosjugos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.OtroProduc {
+  margin: 12px;
+}
+
+.conoceMasdeNuestrosJugos {
+  text-align: center;
+  margin: 0px;
+}
+
+#JugosDeFrutas {
+  text-align: center;
+  margin: 12px;
+}
+
+#JugosDeRaiz {
+  text-align: center;
+  margin: 12px;
+}
+
+#JugosVerdes {
+  text-align: center;
+  margin: 12px;
+}
+
+#OtrosProductos {
+  display: flex;
+  flex-direction: row;
+  margin: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Producto {
+  margin: 12px;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: #2d6a4f;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+h5 {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 30px;
+  color: #000000;
+  background-color: #2d6a4f;
+  font-weight: 800;
+}
+
+.Img {
+  display: flex;
+  justify-content: end;
+}
+
+.Caja1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Caja1 article {
+  padding: 100px;
+  margin: 5px;
+}
+.Caja1 article a {
+  color: #f0f8ff;
+  background-color: #2d6a4f;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+  padding: 12px 12px;
+  margin: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: #90ee90;
+  color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 8px;
+  margin: auto;
+  cursor: pointer;
+  display: flex;
+  align-content: space-around;
+}
+.btn-primary:hover {
+  background-color: #008000;
+}
+
+.card-group {
+  margin: 10px;
+}
+
+.card {
+  background-color: #2d6a4f;
+  padding: 20px;
+  border-radius: 8px;
+  color: #000000;
+  text-align: left;
+  margin: 0px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card img {
+  width: 450px;
+  margin: 10px;
+  padding: 50px;
+  border-radius: 60px;
+}
+
+.card-title {
+  font-size: 30px;
+  color: #000000;
+  background-color: #2d6a4f;
+  font-weight: 800;
+}
+
+.Mapa {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Contactos {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+footer {
+  background-color: #2d6a4f;
+  text-align: center;
+}
+footer a {
+  padding: 0px 18px;
+  display: inline-block;
+}
+
+.boos .mb-3 {
+  margin: 50px;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+.container {
+  background-color: #000000;
+}
+
+.col-6 {
+  padding: 12px;
+}
+.col-6 p {
+  font-size: 18px;
+  padding: 15px;
+  color: #ffffff;
+}
+.col-6 a {
+  padding: 15px;
+  display: flex;
+  text-decoration: none;
+}
+
+.mb-3enviar {
+  background-color: #90ee90;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin: 10%;
+}
+
+/*media query mobile*/
+@media (max-width: 576px) {
+  .header {
+    font-size: 8px;
+    padding: 2px;
+  }
+  ul {
+    font-size: 8px;
+    padding: 2px;
+  }
+  li {
+    font-size: 8px;
+    padding: 2px;
+  }
+  a {
+    font-size: 8px;
+    padding: 2px;
+  }
+  .paquetes {
+    font-size: 25px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .Caja1 img {
+    width: 250px;
+  }
+  .Caja1 article {
+    padding: 15px;
+    margin: 50px;
+  }
+  .NuestrosJ {
+    display: none;
+  }
+  h5 {
+    display: none;
+  }
+  #JugosDeFrutas img {
+    width: 200px;
+    padding: 8px;
+  }
+  #JugosDeRaiz img {
+    width: 200px;
+    padding: 8px;
+  }
+  #JugosVerdes img {
+    width: 200px;
+    padding: 8px;
+  }
+  .form-control {
+    width: 140px;
+  }
+  .col-6 {
+    margin: auto;
+  }
+  .col-6 p {
+    display: none;
+  }
+  img {
+    margin: auto;
+  }
+  .logo img {
+    display: flex;
+    justify-content: flex-start;
+  }
+  iframe {
+    width: 350px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+/*media query mobile*/
+
+/*# sourceMappingURL=app.css.map */

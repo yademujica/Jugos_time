@@ -1,0 +1,36 @@
+
+.Sub {
+	h1 {
+		background-color: $background-color_1;
+		color: $color_1;
+	}
+}
+.Subtitulo {
+	background-image: url(../imagenes/plantita.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	img {
+		flex: 1;
+	}
+}
+.Img {
+	display: flex;
+	justify-content: end;
+}
+
+#Algunosdenuestrosjugos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.OtroProduc {
+	margin: 12px;
+}
+.conoceMasdeNuestrosJugos {
+	text-align: center;
+	margin: 0px;
+}
