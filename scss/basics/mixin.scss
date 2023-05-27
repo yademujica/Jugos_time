@@ -2,12 +2,20 @@
 
 $color-primario:green;
 $color-secundario:black;
-$color-terciario:lightgreen;
+$color-terciario:red;
 
 
 @each $color in $color-primario, $color-secundario, $color-terciario{
     .button-#{$color}{
-        color:$color;
+        background-color:$color;
+        color:white;
+        padding: 10px 25px;
+        margin: auto;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        align-content: space-around;
+        
     }
 }
 
