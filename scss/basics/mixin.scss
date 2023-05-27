@@ -1,0 +1,20 @@
+//each
+
+$color-primario:green;
+$color-secundario:black;
+$color-terciario:lightgreen;
+
+
+@each $color in $color-primario, $color-secundario, $color-terciario{
+    .button-#{$color}{
+        color:$color;
+    }
+}
+
+//mixin
+
+@mixin mediaquery-mobile(){
+    @media (max-width:576px){
+        @content
+    }
+}

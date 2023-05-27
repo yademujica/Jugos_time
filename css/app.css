@@ -3,80 +3,18 @@ h1, h2, h3, h4, h5, h6, p, header, ul, li, a {
   font-family: "poppins";
 }
 
-@media (max-width: 576px) {
-  .header {
-    font-size: 8px;
-    padding: 2px;
-  }
-  ul {
-    font-size: 8px;
-    padding: 2px;
-  }
-  li {
-    font-size: 8px;
-    padding: 2px;
-  }
-  a {
-    font-size: 8px;
-    padding: 2px;
-  }
-  .paquetes {
-    font-size: 25px;
-  }
-  h1 {
-    font-size: 25px;
-  }
-  .Caja1 img {
-    width: 250px;
-  }
-  .Caja1 article {
-    padding: 15px;
-    margin: 50px;
-  }
-  .NuestrosJ {
-    display: none;
-  }
-  h5 {
-    display: none;
-  }
-  #JugosDeFrutas img {
-    width: 200px;
-    padding: 8px;
-  }
-  #JugosDeRaiz img {
-    width: 200px;
-    padding: 8px;
-  }
-  #JugosVerdes img {
-    width: 200px;
-    padding: 8px;
-  }
-  .form-control {
-    width: 140px;
-  }
-  .col-6 {
-    margin: auto;
-  }
-  .col-6 p {
-    display: none;
-  }
-  img {
-    margin: auto;
-  }
-  .logo img {
-    display: flex;
-    justify-content: flex-start;
-  }
-  iframe {
-    width: 350px;
-  }
-  h6 {
-    font-size: 16px;
-  }
-  h2 {
-    font-size: 20px;
-  }
+.button-green {
+  color: green;
 }
+
+.button-black {
+  color: black;
+}
+
+.button-lightgreen {
+  color: lightgreen;
+}
+
 header {
   background-color: #2e6b50;
   display: flex;
@@ -345,6 +283,81 @@ footer a {
   padding: 5px 10px;
   border-radius: 8px;
   margin: 10%;
+}
+
+@media (max-width: 576px) {
+  .header {
+    font-size: 8px;
+    padding: 2px;
+  }
+  ul {
+    font-size: 8px;
+    padding: 2px;
+  }
+  li {
+    font-size: 8px;
+    padding: 2px;
+  }
+  a {
+    font-size: 8px;
+    padding: 2px;
+  }
+  .paquetes {
+    font-size: 25px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .Caja1 img {
+    width: 250px;
+  }
+  .Caja1 article {
+    padding: 15px;
+    margin: 50px;
+  }
+  .NuestrosJ {
+    display: none;
+  }
+  h5 {
+    display: none;
+  }
+  #JugosDeFrutas img {
+    width: 200px;
+    padding: 8px;
+  }
+  #JugosDeRaiz img {
+    width: 200px;
+    padding: 8px;
+  }
+  #JugosVerdes img {
+    width: 200px;
+    padding: 8px;
+  }
+  .form-control {
+    width: 140px;
+  }
+  .col-6 {
+    margin: auto;
+  }
+  .col-6 p {
+    display: none;
+  }
+  img {
+    margin: auto;
+  }
+  .logo img {
+    display: flex;
+    justify-content: flex-start;
+  }
+  iframe {
+    width: 350px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
