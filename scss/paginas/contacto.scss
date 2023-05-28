@@ -21,21 +21,29 @@
 }
 .col-6 {
 	padding: 12px;
-	p {
-		font-size: 18px;
-		padding: 15px;
-		color: $color_1;
-	}
-	a {
-		padding: 15px;
-		display: flex;
-		text-decoration: none;
+	margin: auto;
+}
+.col-6-1{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+	a{
+		margin: 5px;
+		padding:20px
 	}
 }
+ 
 .mb-3enviar {
 	background-color: $background-color_3;
 	color: $color_1;
 	padding: 5px 10px;
 	border-radius: 8px;
 	margin: 10%;
+	
+}
+.mb-3enviar:hover{
+	transform: scale(1.15, 1.15);
+}
+.col-6-1 img:hover{
+	transform: scale(1.15, 1.15);
 }

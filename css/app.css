@@ -88,7 +88,7 @@ body {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 20px;
   color: #ffffff;
   font-weight: 300;
   text-align: center;
@@ -114,14 +114,14 @@ h6 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   color: #ffffff;
 }
 
 h2 {
   text-align: center;
-  font-size: 25px;
+  font-size: 35px;
   color: #ffffff;
   background-color: #2e6b50;
   border-radius: 8px;
@@ -164,6 +164,10 @@ footer a {
   display: inline-block;
 }
 
+footer img:hover {
+  transform: scale(1.15, 1.15);
+}
+
 .Sub h1 {
   background-color: #000000;
   color: #ffffff;
@@ -181,11 +185,6 @@ footer a {
   flex: 1;
 }
 
-.Img {
-  display: flex;
-  justify-content: end;
-}
-
 #Algunosdenuestrosjugos {
   display: flex;
   flex-direction: row;
@@ -200,6 +199,11 @@ footer a {
 .conoceMasdeNuestrosJugos {
   text-align: center;
   margin: 0px;
+}
+
+#Algunosdenuestrosjugos img:hover {
+  transform: scale(1.15, 1.15);
+  border-radius: 10px;
 }
 
 #JugosDeFrutas {
@@ -225,6 +229,26 @@ footer a {
   justify-content: center;
 }
 
+#JugosDeFrutas img:hover {
+  transform: scale(1.15, 1.15);
+  border-radius: 10px;
+}
+
+#JugosDeRaiz img:hover {
+  transform: scale(1.15, 1.15);
+  border-radius: 10px;
+}
+
+#JugosVerdes img:hover {
+  transform: scale(1.15, 1.15);
+  border-radius: 10px;
+}
+
+#OtrosProductos img:hover {
+  transform: scale(1.15, 1.15);
+  border-radius: 10px;
+}
+
 .Caja1 {
   display: flex;
   flex-direction: row;
@@ -238,7 +262,7 @@ footer a {
 .Caja1 article a {
   color: #ffffff;
   background-color: #2e6b50;
-  border-radius: 10px;
+  border-radius: 20px;
   font-size: 16px;
   text-align: center;
   padding: 12px 12px;
@@ -246,6 +270,9 @@ footer a {
   text-decoration: none;
   display: flex;
   justify-content: center;
+}
+.Caja1 article img {
+  border-radius: 10px;
 }
 
 .btn-primary {
@@ -260,6 +287,26 @@ footer a {
 }
 .btn-primary:hover {
   background-color: #008000;
+}
+
+.button-black:hover {
+  transform: scale(1.15, 1.15);
+}
+
+.button-green:hover {
+  transform: scale(1.15, 1.15);
+}
+
+.button-red:hover {
+  transform: scale(1.15, 1.15);
+}
+
+.btn-primary:hover {
+  transform: scale(1.15, 1.15);
+}
+
+.Caja1 img:hover {
+  transform: scale(1.15, 1.15);
 }
 
 .card-group {
@@ -319,16 +366,17 @@ footer a {
 
 .col-6 {
   padding: 12px;
+  margin: auto;
 }
-.col-6 p {
-  font-size: 18px;
-  padding: 15px;
-  color: #ffffff;
-}
-.col-6 a {
-  padding: 15px;
+
+.col-6-1 {
+  padding: 10px;
   display: flex;
-  text-decoration: none;
+  justify-content: center;
+}
+.col-6-1 a {
+  margin: 5px;
+  padding: 20px;
 }
 
 .mb-3enviar {
@@ -337,6 +385,14 @@ footer a {
   padding: 5px 10px;
   border-radius: 8px;
   margin: 10%;
+}
+
+.mb-3enviar:hover {
+  transform: scale(1.15, 1.15);
+}
+
+.col-6-1 img:hover {
+  transform: scale(1.15, 1.15);
 }
 
 @media (max-width: 576px) {
@@ -386,9 +442,6 @@ footer a {
   }
   iframe {
     width: 350px;
-  }
-  h6 {
-    font-size: 16px;
   }
 }
 

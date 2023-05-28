@@ -1,8 +1,8 @@
 #JugosDeFrutas {
 	text-align: center;
 	margin: 12px;
-	
 }
+
 #JugosDeRaiz {
 	text-align: center;
 	margin: 12px;
@@ -18,4 +18,21 @@
 	margin: 12px;
 	flex-wrap: wrap;
 	justify-content: center;
+}
+
+#JugosDeFrutas img:hover{
+	transform: scale(1.15, 1.15);
+	border-radius: 10px;
+}
+#JugosDeRaiz img:hover{
+	transform: scale(1.15, 1.15);
+	border-radius: 10px;
+}
+#JugosVerdes img:hover{
+	transform: scale(1.15, 1.15);
+	border-radius: 10px;
+}
+#OtrosProductos img:hover{
+	transform: scale(1.15, 1.15);
+	border-radius: 10px;
 }

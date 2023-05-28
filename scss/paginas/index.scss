@@ -16,16 +16,14 @@
 		flex: 1;
 	}
 }
-.Img {
-	display: flex;
-	justify-content: end;
-}
+
 
 #Algunosdenuestrosjugos {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+	
 }
 .OtroProduc {
 	margin: 12px;
@@ -33,4 +31,8 @@
 .conoceMasdeNuestrosJugos {
 	text-align: center;
 	margin: 0px;
+}
+#Algunosdenuestrosjugos img:hover{
+	transform: scale(1.15, 1.15);
+	border-radius: 10px;
 }
