@@ -206,6 +206,10 @@ footer img:hover {
   border-radius: 10px;
 }
 
+.Subtitulo img:hover {
+  transform: scale(1.1, 1.1);
+}
+
 #JugosDeFrutas {
   text-align: center;
   margin: 12px;
@@ -325,10 +329,15 @@ footer img:hover {
   align-items: center;
 }
 .card img {
-  width: 450px;
+  width: 550px;
   margin: 10px;
   padding: 50px;
   border-radius: 60px;
+}
+@media (max-width: 576px) {
+  .card img {
+    width: 410px;
+  }
 }
 
 .card-title {
