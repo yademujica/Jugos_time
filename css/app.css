@@ -78,6 +78,18 @@ header li a {
   }
 }
 
+header ul:hover {
+  transform: scale(0.9, 0.9);
+}
+
+header li:hover {
+  transform: scale(0.9, 0.9);
+}
+
+header a:hover {
+  transform: scale(0.9, 0.9);
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -88,10 +100,11 @@ body {
 }
 
 h3 {
+  padding: 0px;
   font-size: 20px;
   color: #ffffff;
   font-weight: 300;
-  text-align: center;
+  text-align: justify;
 }
 
 h4 {
@@ -102,7 +115,7 @@ h4 {
 }
 
 h6 {
-  font-weight: 1000;
+  font-weight: 500;
   text-align: center;
   font-size: 30px;
   color: #ffffff;
@@ -114,12 +127,14 @@ h6 {
 }
 
 p {
+  margin: 20px;
   font-size: 16px;
-  text-align: center;
+  text-align: justify;
   color: #ffffff;
 }
 
 h2 {
+  margin: 25px;
   text-align: center;
   font-size: 35px;
   color: #ffffff;
@@ -133,6 +148,7 @@ h2 {
 }
 
 h1 {
+  margin: 10px;
   text-align: center;
   font-size: 40px;
   font-weight: bolder;
@@ -212,17 +228,26 @@ footer img:hover {
 
 #JugosDeFrutas {
   text-align: center;
-  margin: 12px;
+  margin: 14px;
+}
+#JugosDeFrutas img {
+  padding: 8px;
 }
 
 #JugosDeRaiz {
   text-align: center;
-  margin: 12px;
+  margin: 14px;
+}
+#JugosDeRaiz img {
+  padding: 8px;
 }
 
 #JugosVerdes {
   text-align: center;
-  margin: 12px;
+  margin: 14px;
+}
+#JugosVerdes img {
+  padding: 8px;
 }
 
 #OtrosProductos {
@@ -251,6 +276,10 @@ footer img:hover {
 #OtrosProductos img:hover {
   transform: scale(1.15, 1.15);
   border-radius: 10px;
+}
+
+.NuestrosJ {
+  padding: 18px;
 }
 
 .Caja1 {
@@ -314,12 +343,11 @@ footer img:hover {
 }
 
 .card-group {
-  margin: 10px;
+  margin: 40px;
 }
 
 .card {
   background-color: #2e6b50;
-  padding: 20px;
   border-radius: 8px;
   color: #000000;
   text-align: left;
@@ -336,7 +364,7 @@ footer img:hover {
 }
 @media (max-width: 576px) {
   .card img {
-    width: 410px;
+    width: 385px;
   }
 }
 

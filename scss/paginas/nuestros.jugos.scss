@@ -1,15 +1,24 @@
 #JugosDeFrutas {
 	text-align: center;
-	margin: 12px;
+	margin: 14px;
+	img{
+		padding:8px
+	}
 }
 
 #JugosDeRaiz {
 	text-align: center;
-	margin: 12px;
+	margin: 14px;
+	img{
+		padding:8px
+	}
 }
 #JugosVerdes {
 	text-align: center;
-	margin: 12px;
+	margin: 14px;
+	img{
+		padding:8px
+	}
 }
 
 #OtrosProductos {
@@ -35,4 +44,7 @@
 #OtrosProductos img:hover{
 	transform: scale(1.15, 1.15);
 	border-radius: 10px;
+}
+.NuestrosJ{
+	padding: 18px;
 }
