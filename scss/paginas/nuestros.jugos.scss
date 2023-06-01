@@ -5,7 +5,6 @@
 		padding:8px
 	}
 }
-
 #JugosDeRaiz {
 	text-align: center;
 	margin: 14px;
@@ -20,7 +19,6 @@
 		padding:8px
 	}
 }
-
 #OtrosProductos {
 	display: flex;
 	flex-direction: row;
@@ -28,7 +26,9 @@
 	flex-wrap: wrap;
 	justify-content: center;
 }
-
+.NuestrosJ{
+	padding: 18px;
+}
 #JugosDeFrutas img:hover{
 	transform: scale(1.15, 1.15);
 	border-radius: 10px;
@@ -45,6 +45,4 @@
 	transform: scale(1.15, 1.15);
 	border-radius: 10px;
 }
-.NuestrosJ{
-	padding: 18px;
-}
+
