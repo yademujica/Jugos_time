@@ -361,15 +361,20 @@ footer img:hover {
   flex-direction: column;
   align-items: center;
 }
+@media (max-width: 576px) {
+  .card {
+    margin: 0px;
+  }
+}
 .card img {
-  width: 550px;
+  width: 480px;
   margin: 10px;
   padding: 50px;
   border-radius: 60px;
 }
 @media (max-width: 576px) {
   .card img {
-    width: 450px;
+    width: 380px;
   }
 }
 
@@ -383,7 +388,7 @@ footer img:hover {
 @media (max-width: 576px) {
   .card-title {
     display: flex;
-    text-align: justify;
+    text-align: center;
   }
 }
 
