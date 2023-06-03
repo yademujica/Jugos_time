@@ -355,7 +355,7 @@ footer img:hover {
   background-color: #2e6b50;
   border-radius: 8px;
   color: #000000;
-  text-align: left;
+  text-align: center;
   margin: 0px 25px;
   display: flex;
   flex-direction: column;
@@ -369,15 +369,22 @@ footer img:hover {
 }
 @media (max-width: 576px) {
   .card img {
-    width: 385px;
+    width: 450px;
   }
 }
 
 .card-title {
+  text-align: center;
   font-size: 30px;
   color: #000000;
   background-color: #2e6b50;
   font-weight: 800;
+}
+@media (max-width: 576px) {
+  .card-title {
+    display: flex;
+    text-align: justify;
+  }
 }
 
 .Producto {
@@ -479,7 +486,7 @@ label .form-label {
     width: 300px;
   }
   .col-6 {
-    margin: 2px;
+    margin: 1px;
   }
   .col-6 p {
     display: none;
