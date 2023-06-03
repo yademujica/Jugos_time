@@ -30,7 +30,7 @@ header {
 			font-weight: bolder;
 			padding: 0px 12px;
 			@include mediaquery-mobile(){
-				font-size: 10px;
+				font-size: 12px;
 				padding: 4px;
 			}
 		}
